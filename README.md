@@ -16,6 +16,11 @@ Bir kısayol belirleyin; YazGeç, kayıtlı ifadenizi yazdığınız yere eklesi
 
 ### 📦 [Son sürümü indir](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases/latest) · 📋 [Sürüm notları](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases)
 
+### ⌨️ YazGeç 0.2.2 Yayında! 🎉
+
+Windows'ta açılış hatası ve UYAP'ta kısayol genişletme için düzeltmeler içeriyor.  
+**[Neler değişti? →](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases/tag/v0.2.2)**
+
 </div>
 
 ---
@@ -56,19 +61,19 @@ Bir dilekçede, e-postada veya yazışmada aynı ifadeyi kaç kez tekrar ediyors
 
 ## 📥 İndirme ve kurulum
 
-**Güncel sürüm: [YazGeç v0.2.1](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases/tag/v0.2.1)**
+**Güncel sürüm: [YazGeç v0.2.2](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases/tag/v0.2.2)**
 
 | Platform | Paket | Durum |
 |:--|:--|:--|
-| 🍎 **macOS** | [Apple Silicon DMG indir](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases/download/v0.2.1/YazGec_0.2.1_aarch64.dmg) | Developer ID imzalı, Apple tarafından noterlenmiş |
-| 🪟 **Windows** | [EXE kurulumunu indir](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases/download/v0.2.1/YazGec_0.2.1_x64-setup.exe) | Deneme sürümü · gerçek Windows kullanım testi bekliyor |
-| 🪟 **Windows (MSI)** | [Türkçe MSI indir](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases/download/v0.2.1/YazGec_0.2.1_x64_tr-TR.msi) | Alternatif kurulum · imzasız |
+| 🍎 **macOS** | [Apple Silicon DMG indir](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases/download/v0.2.2/YazGec_0.2.2_aarch64.dmg) | Developer ID imzalı, Apple tarafından noterlenmiş |
+| 🪟 **Windows** | [EXE kurulumunu indir](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases/download/v0.2.2/YazGec_0.2.2_x64-setup.exe) | ⭐ Önerilen kurulum · imzasız |
+| 🪟 **Windows (MSI)** | [Türkçe MSI indir](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases/download/v0.2.2/YazGec_0.2.2_x64_tr-TR.msi) | Alternatif kurulum · imzasız |
 
 **macOS:** macOS 12 veya üzeri ve Apple Silicon (M serisi işlemci) gerektirir. DMG'yi açıp YazGeç'i **Uygulamalar** klasörüne sürükleyin. Metin genişletme için macOS Erişilebilirlik izni gerekebilir.
 
-**Windows:** Windows 10/11 (64 bit) hedeflenir. Windows paketleri henüz gerçek Windows bilgisayarında Word/UYAP ile doğrulanmamıştır ve kod imzasızdır. Önemli iş belgelerinde kullanmadan önce boş bir deneme belgesinde sınayın.
+**Windows:** Windows 10/11 (64 bit) hedeflenir; genel kullanım için **EXE** kurulumunu öneririz. 0.2.2, Windows'ta bildirilen açılış ve UYAP sorunları için düzeltmeler içerir ve Windows'ta 441 otomatik testten geçti. Gerçek Windows 11 ve UYAP ortamındaki kullanıcı kabul testleri sürüyor; ilk denemelerinizi boş bir belgede yapın. Paketler kod imzasızdır: SmartScreen uyarırsa dosyanın SHA-256 değerini sürüm notlarındakiyle karşılaştırıp **Ek bilgi › Yine de çalıştır**'ı seçin.
 
-📌 Önceki sürümler, sürüm notları ve dosyaların **SHA-256** doğrulama değerleri için [Sürümler sayfasına](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases) bakın.
+📌 Önceki sürümler ([v0.2.1](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases/tag/v0.2.1) · [v0.2.0](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases/tag/v0.2.0)), sürüm notları ve dosyaların **SHA-256** doğrulama değerleri için [Sürümler sayfasına](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases) bakın.
 
 ## 🔒 Gizlilik: Metinleriniz size ait
 
@@ -87,9 +92,9 @@ YazGeç gelişmeye devam ediyor. Mevcut sürümde şu sınırlamalar bulunuyor:
 
 - **UYAP:** Belgenin en başında kısayol genişlerken hiç beklemeden yazmaya devam edilirse eklenen metinle sonraki karakterlerin sırası bozulabilir. Metnin eklenmesini gördükten sonra yazmaya devam edin.
 - **Word:** Kısayol paragrafın tek içeriğiyken hemen Enter'a basıldığında genişletme güvenli biçimde iptal edilebilir.
-- **Windows:** Gerçek masaüstü ve editör testleri henüz tamamlanmamıştır.
+- **Windows:** Gerçek Windows 11 ve UYAP ortamındaki kullanıcı kabul testleri sürüyor. UYAP'a eklenen metin panoda kalır; önceki pano içeriği geri yüklenmez.
 
-Ayrıntılar için [v0.2.1 sürüm notları](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases/tag/v0.2.1).
+Ayrıntılar için [v0.2.2 sürüm notları](https://github.com/raciyuksekbas-hub/YazGec-Surumler/releases/tag/v0.2.2).
 
 ## 💬 Görüş ve öneriler
 
